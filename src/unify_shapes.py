@@ -121,7 +121,6 @@ def unify_shapes(mggg_graph):
     }
     contained_ids = interlopers_filtered.keys()
     container_ids = interlopers_filtered.values()
-    assert '42085603360' in container_ids, 'Well, it should be'
     print('Found this many: %s' % len(interlopers_filtered))
 
     print('Constructing new dataframe')
